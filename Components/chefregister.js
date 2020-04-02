@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { StyleSheet, Text, View, Button, TextInput, Image, TouchableOpacity } from 'react-native';
 
 
-export default function register(){
+export default function register({navigation}){
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [password2, setPassword2] = useState('');
