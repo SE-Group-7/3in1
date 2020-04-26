@@ -1,9 +1,11 @@
 import React, { useState} from 'react';
 import { StyleSheet, Text, View, Button} from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Menu({navigation}){
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <ScrollView>
       <Text style={styles.title}> Manager </Text>
       <Button
         title="Tables"
@@ -21,6 +23,7 @@ export default function Menu({navigation}){
         title="Analytics"
         onPress={() => navigation.navigate('manageranalytics')}
       />
+    </ScrollView>
     </View>
   );
 }

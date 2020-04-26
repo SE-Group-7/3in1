@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View, Button, TextInput, Image, TouchableOpacity } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 export default function Login({navigation}){
@@ -8,6 +9,7 @@ export default function Login({navigation}){
 
     return(
         <View style={styles.container}>
+            <ScrollView>
             <Image source={require('../assets/Logo.png')} style={styles.logo} />
             <Text style={{color: '#f04b48', fontSize: 20, fontWeight: 'bold', textAlign: 'center', marginBottom: 20}}>Manager Login</Text>
             <TextInput
@@ -28,6 +30,7 @@ export default function Login({navigation}){
                     <Text style={{color: '#f04b48'}}> Login!</Text>
                 </TouchableOpacity>  
             </View>
+            </ScrollView>
         </View>
     );
 }

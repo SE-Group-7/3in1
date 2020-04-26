@@ -1,9 +1,11 @@
 import React, { useState} from 'react';
 import { StyleSheet, Text, View, Button} from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Menu({navigation}){
   return (
     <View style={{ flex: 1, alignItems: 'center',   }}>
+      <ScrollView>
       <Text style={styles.title}>Breakfast</Text>
       <Text style={styles.menuItem}>Breakfast Burrito</Text>
       <Text>Scrambled Eggs, Ham, Swiss Cheese</Text>
@@ -23,6 +25,7 @@ export default function Menu({navigation}){
         title="EDIT MENU"
         onPress={() => navigation.navigate('editmenu')}
         ></Button>
+    </ScrollView>
     </View>
   );
 }
