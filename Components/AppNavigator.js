@@ -9,6 +9,11 @@ import chefdetail from './chefdetail';
 import chefdone from './chefdone';
 
 import managerlogin from './managerlogin';
+import managermenu from './managermenu';
+import manageranalytics from './manageranalytics'
+import managerfood from './managerfood'
+import managertable from './managertable'
+import managertimesheet from './managertimesheet'
 
 import customerlogin from './customerlogin';
 import customermenu from './customermenu';
@@ -27,6 +32,11 @@ const stack = createStackNavigator({
 
     //manager
     managerlogin: {screen: managerlogin},
+    managermenu: {screen: managermenu},
+    manageranalytics: {screen: manageranalytics},
+    managerfood: {screen:managerfood},
+    managertable: {screen: managertable},
+    managertimesheet: {screen: managertimesheet},
 
     //customer
     customerlogin: {screen: customerlogin},
