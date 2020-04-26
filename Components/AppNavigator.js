@@ -19,6 +19,7 @@ import table2 from './tablepage2'
 import table3 from './tablepage3'
 import table4 from './tablepage4'
 import table5 from './tablepage5'
+import editmenu from './editmenu'
 
 import customerlogin from './customerlogin';
 import customermenu from './customermenu';
@@ -47,6 +48,7 @@ const stack = createStackNavigator({
     table3: {screen: table3},
     table4: {screen: table4},
     table5: {screen: table5},
+    editmenu: {screen: editmenu},
 
 
     //customer

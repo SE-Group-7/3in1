@@ -21,6 +21,7 @@ export default function Menu({navigation}){
       <Text>Clam chowder</Text>
       <Button
         title="EDIT MENU"
+        onPress={() => navigation.navigate('editmenu')}
         ></Button>
     </View>
   );
