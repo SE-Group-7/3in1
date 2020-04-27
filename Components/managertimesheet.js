@@ -1,8 +1,10 @@
 import React, { useState} from 'react';
 import { StyleSheet, Text, View, Button} from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Menu({navigation}){
   return (
+    <ScrollView>
     <View style={{ flex: 1, alignItems: 'flex-start',   }}>
     <Text style={styles.title}>Employee Check-In</Text>
     <Text style={styles.title}>Today's Check-Ins 7</Text>
@@ -42,8 +44,10 @@ export default function Menu({navigation}){
     <Text>Clock out: NULL</Text>
     <Text>Tables 10</Text>
   </View>
+  </ScrollView>
   );
 }
+
 
 
 const styles = StyleSheet.create({
