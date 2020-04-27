@@ -24,6 +24,7 @@
     "react-native-web": "~0.11.7",
     "react-navigation": "^4.3.6",
     "react-navigation-stack": "^2.3.10",
+    "reactjs-popup": "^1.5.0",
     "rn-swipe-button": "^1.2.6",
     "scrollview": "0.0.0"
   },
