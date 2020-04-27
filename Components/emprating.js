@@ -42,6 +42,13 @@ export default function Menu({navigation}){
         <Text style={styles.title}>Current Employee Ratings
         </Text>
         <Text style={styles.Menu}>Values printed in console log</Text>
+        <Text style={styles.menuItem}>James 4.1</Text>
+        <Text style={styles.menuItem}>George 3.966666666666667</Text>
+        <Text style={styles.menuItem}>Ringo 4.066666666666666</Text>
+        <Text style={styles.menuItem}>John 3.8333333333333335</Text>
+        <Text style={styles.menuItem}>Eric 4.2</Text>
+        <Text style={styles.menuItem}>Paul 4.333333333333333</Text>
+        <Text style={styles.menuItem}>Chris 4</Text>
         </View>
         </ScrollView>
     )
